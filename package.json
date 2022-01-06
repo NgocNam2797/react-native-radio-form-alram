@@ -1,0 +1,53 @@
+{
+  "_from": "git+https://github.com/NgocNam2797/react-native-radio.git",
+  "_id": "react-native-radio-form@1.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-radio-form",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-radio-form@git+https://github.com/NgocNam2797/react-native-radio.git",
+    "name": "react-native-radio-form",
+    "escapedName": "react-native-radio-form",
+    "rawSpec": "git+https://github.com/NgocNam2797/react-native-radio.git",
+    "saveSpec": "git+https://github.com/NgocNam2797/react-native-radio.git",
+    "fetchSpec": "https://github.com/NgocNam2797/react-native-radio.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/NgocNam2797/react-native-radio.git#3e8cdec61881204b42e49f7b6be5e1d4e72a7d1f",
+  "_shasum": "0806574b7f05a26a05261afbbd5df74ab0598c2b",
+  "_spec": "react-native-radio-form@git+https://github.com/NgocNam2797/react-native-radio.git",
+  "_where": "/Users/NgocNam/Documents/App_Moblie/kusuri_mobile_app_new",
+  "author": {
+    "name": "cuiyueshuai"
+  },
+  "bugs": {
+    "url": "https://github.com/cuiyueshuai/react-native-radio-form/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "deprecated": false,
+  "description": "react native radioform is a simple Radio’s form, it’s a pure JS's component and it could used for the Android and iOS",
+  "homepage": "https://github.com/cuiyueshuai/react-native-radio-form#readme",
+  "keywords": [
+    "radio",
+    "form"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-radio-form",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuiyueshuai/react-native-radio-form.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}
