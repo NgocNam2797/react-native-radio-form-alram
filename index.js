@@ -15,7 +15,7 @@
  
  const WINDOW_WIDTH = Dimensions.get('window').width;
  
- class RadioForm extends Component {
+ class RadioForms extends Component {
    constructor(props) {
      super(props);
      this._onPress = this._onPress.bind(this);
@@ -75,6 +75,9 @@
        slectRadio:true,
        is_active_index: index,
      });
+     if (this.props.onPress) {
+      this.props.onPress(item, index);
+     }
    }
  
    renderRadioItem(item, i) {
@@ -144,5 +147,5 @@
    }
  }
  
- export default RadioForm;
+ export default RadioForms;
  
