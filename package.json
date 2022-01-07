@@ -1,27 +1,27 @@
 {
-  "_from": "git+https://github.com/NgocNam2797/react-native-radio.git",
+  "_from": "git+https://github.com/NgocNam2797/react-native-radio-form-alram.git",
   "_id": "react-native-radio-form@1.1.0",
   "_inBundle": false,
   "_integrity": "",
-  "_location": "/react-native-radio-form",
+  "_location": "/react-native-radio-form-alram",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "react-native-radio-form@git+https://github.com/NgocNam2797/react-native-radio.git",
-    "name": "react-native-radio-form",
-    "escapedName": "react-native-radio-form",
-    "rawSpec": "git+https://github.com/NgocNam2797/react-native-radio.git",
-    "saveSpec": "git+https://github.com/NgocNam2797/react-native-radio.git",
-    "fetchSpec": "https://github.com/NgocNam2797/react-native-radio.git",
+    "raw": "react-native-radio-form-alram@git+https://github.com/NgocNam2797/react-native-radio-form-alram.git",
+    "name": "react-native-radio-form-alram",
+    "escapedName": "react-native-radio-form-alram",
+    "rawSpec": "git+https://github.com/NgocNam2797/react-native-radio-form-alram.git",
+    "saveSpec": "git+https://github.com/NgocNam2797/react-native-radio-form-alram.git",
+    "fetchSpec": "https://github.com/NgocNam2797/react-native-radio-form-alram.git",
     "gitCommittish": null
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "git+https://github.com/NgocNam2797/react-native-radio.git#3e8cdec61881204b42e49f7b6be5e1d4e72a7d1f",
+  "_resolved": "git+https://github.com/NgocNam2797/react-native-radio-form-alram.git#7929b973340662c8a4b7ef2235e9c12be693cfc1",
   "_shasum": "0806574b7f05a26a05261afbbd5df74ab0598c2b",
-  "_spec": "react-native-radio-form@git+https://github.com/NgocNam2797/react-native-radio.git",
-  "_where": "/Users/NgocNam/Documents/App_Moblie/kusuri_mobile_app_new",
+  "_spec": "react-native-radio-form-alram@git+https://github.com/NgocNam2797/react-native-radio-form-alram.git",
+  "_where": "/Users/NgocNam/Documents/KUSURINOAOKI_APP/kusuri_mobile_app_new",
   "author": {
     "name": "cuiyueshuai"
   },
@@ -41,7 +41,7 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "react-native-radio-form",
+  "name": "react-native-radio-forms",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cuiyueshuai/react-native-radio-form.git"
