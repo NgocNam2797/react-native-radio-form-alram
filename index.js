@@ -58,7 +58,6 @@
  
    componentDidMount() {
      const { itemShowKey, itemRealKey, initial, dataSource, createUser } = this.props;
-     console.log('initialinitialinitialinitial',initial);
      if (typeof (initial) === 'number') return;
      dataSource.map((item, i) => { 
        if(item.active&&createUser){
@@ -113,16 +112,17 @@
 
    renderRadioCircle(isSelected,isActived) {
      const outerSize = this.props.circleSize > 11 ? this.props.circleSize : 11;
-     const innerSize = this.props.circleSize - 7;
+     const innerSize =14;
      return (
        <View
          style={{ width: outerSize, height: outerSize, margin: 5, justifyContent: 'center', alignItems: 'center',
-          borderRadius: outerSize / 2, borderWidth: 2, borderColor: this.props.outerColor }}
+          borderRadius: outerSize / 2, borderWidth: 0.5, borderColor: this.props.outerColor , backgroundColor:'white'}}
        >
-         <View
+         {isSelected&&(<View
           style={{ width: innerSize, height: innerSize, borderRadius: innerSize / 2,
-            backgroundColor: isSelected ? this.props.innerColor : 'transparent' }}
+            backgroundColor: isSelected ? this.props.innerColor : 'white' }}
          />
+         )}
        </View>
      );
    }
